@@ -40,6 +40,12 @@ npm install --save gh-pages
 npx husky add .husky/pre-commit "npx lint-staged"
 ```
 
+5. Install dependencies
+
+```shell
+npm install
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
