@@ -1,0 +1,10 @@
+module.exports = {
+  extends: [
+    "react-app",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+  ],
+  plugins: ["react"],
+  rules: {},
+};

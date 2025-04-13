@@ -28,6 +28,18 @@ nvm use node           # use latest
 nvm alias default node # set as default
 ```
 
+3. Setup github pages
+
+```shell
+npm install --save gh-pages
+```
+
+4. Install pre-commit Husky hooks
+
+```shell
+npx husky add .husky/pre-commit "npx lint-staged"
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
