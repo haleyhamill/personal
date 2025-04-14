@@ -1,5 +1,6 @@
 {
   "name": "personal",
+  "homepage": "https://haleyhamill.github.io/personal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,6 +42,8 @@
   },
   "devDependencies": {
     "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.1",
     "prettier": "^3.5.3"

@@ -1,10 +1,12 @@
 module.exports = {
   extends: [
-    "react-app",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "prettier",
+    'react-app',
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:prettier/recommended',
   ],
-  plugins: ["react"],
-  rules: {},
+  plugins: ['react'],
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+  },
 };
