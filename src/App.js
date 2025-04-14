@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Home from './projects/home/Home';
-import Celebrate from './projects/celebrate/Celebrate';
+import Celebrate from './projects/celebrate/Celebrate'; // I don't know why this is angry
 
 function App() {
   // Track the selected project (empty string shows a welcome message)
