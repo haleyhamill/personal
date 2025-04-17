@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+.project-display {
+  flex: 1;
+  padding: 2rem;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  color: #4a4a4a;
+  overflow-y: auto;
+}
+
+/* Add smooth transitions for content changes */
+.project-display > * {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

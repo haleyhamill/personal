@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff5f7;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    height: auto;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ffd6e0;
+  }
+}

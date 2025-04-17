@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+.sidebar {
+  background-color: #fff5f7;
+  padding: 2rem;
+  min-width: 250px;
+  height: 100vh;
+  border-right: 1px solid #ffd6e0;
+  font-family: 'Playfair Display', serif;
+}
+
+.sidebar h1 {
+  color: #ff6b81;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0;
+  color: #4a4a4a;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.sidebar-item:hover {
+  background-color: #ffd6e0;
+  color: #ff6b81;
+  transform: translateX(5px);
+}
+
+.sidebar-item:active {
+  background-color: #ffb3c1;
+}
