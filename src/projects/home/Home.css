@@ -1,3 +1,27 @@
 .welcome-message {
+  text-align: center;
   font-size: 1.5rem;
+}
+
+.home-content {
+  padding-top: 2rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.social-icon svg {
+  transition: transform 0.2s;
+}
+
+.center {
+  transition: transform 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* space between icons */
+  margin-top: 1rem;
+}
+
+.social-icon:hover svg {
+  transform: scale(1.0625); /* 34/32 = 1.0625 */
 }
